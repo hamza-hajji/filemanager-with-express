@@ -1,0 +1,22 @@
+{
+  "name": "file-navigator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@opuscapita/react-filemanager": "^1.0.0-beta.8",
+    "@opuscapita/react-filemanager-connector-node-v1": "^1.0.0-beta.8",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "concurrently --kill-others \"npm run start\" \"node express-server/server.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
